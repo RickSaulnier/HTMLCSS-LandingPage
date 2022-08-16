@@ -239,3 +239,10 @@ section {
     position: relative;
 }
 
+.full-banner:before {
+    content: "";
+    position: absolute;
+    border: 1px solid #ffffff;
+    border: 30px 30px 50px 50px;
+    z-index: 1;
+}
